@@ -58,9 +58,6 @@ public class HttpVerticle extends AbstractVerticle{
         router.route().handler(new LoggingHandler());
         router.route().handler(new JsonResponseHeaderHandler());
 
-
-
-
         // Define routes
         router.post("/api/shorten").handler(this::handleShortenUrl);
         router.get("/api/resolve/:short_code").handler(this::handleResolve);
@@ -70,7 +67,6 @@ public class HttpVerticle extends AbstractVerticle{
 
         // Define failure handler
         router.route().failureHandler(new ErrorHandler());
-
 
         // Create http Server
         vertx.createHttpServer()
