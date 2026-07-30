@@ -110,6 +110,19 @@ public class HttpVerticleIntegrationTests {
                     ctx.completeNow();
                 }).onFailure(ctx::failNow);
     }
+
+    @Test
+    void shouldAddRequestIdToResponseHeader(Vertx vetx, VertxTestContext ctx){
+        client.get(8080,"localhost","/api/health")
+                .send()
+                .onSuccess(response->{
+                    ctx.verify(()->{
+                        assertNotNull(response.getHeader("x-request-id"));
+                    });
+
+                    ctx.completeNow();
+                }).onFailure(ctx::failNow);
+    }
 }
 
 

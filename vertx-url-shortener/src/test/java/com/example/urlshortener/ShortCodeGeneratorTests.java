@@ -53,6 +53,5 @@ public class ShortCodeGeneratorTests {
 
         assertTrue(shortCode1.length()==7);
         assertTrue(shortCode2.length()==7);
-
     }
 }
