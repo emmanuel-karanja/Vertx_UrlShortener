@@ -1,0 +1,8 @@
+-- V1__create_urls_table.sql
+
+CREATE TABLE urls (
+                      id BIGSERIAL PRIMARY KEY,
+                      short_code VARCHAR(7) UNIQUE NOT NULL,
+                      long_url TEXT NOT NULL,
+                      created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
