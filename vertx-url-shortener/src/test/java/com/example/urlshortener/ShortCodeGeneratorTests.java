@@ -8,6 +8,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class ShortCodeGeneratorTests {
 
+    public static final int SHORT_CODE_LENGTH = 7;
+
     @Test
     void shouldGenerateShortCodesDeterministically(){
 
@@ -43,7 +45,7 @@ public class ShortCodeGeneratorTests {
     }
 
     @Test
-    void shouldGenerateShortCodesOfLength7(){
+    void shouldGenerateShortCodesOfLengthOfSHORT_CODE_LENGTH(){
 
         String source1="https://www.example1.com";
         String source2="https://www.example2.com";
@@ -51,7 +53,7 @@ public class ShortCodeGeneratorTests {
         String shortCode1=new ShortCodeGenerator().generate(source1);
         String shortCode2=new ShortCodeGenerator().generate(source2);
 
-        assertEquals(shortCode1.length(),7);
-        assertEquals(shortCode2.length(),7);
+        assertEquals(shortCode1.length(),SHORT_CODE_LENGTH);
+        assertEquals(shortCode2.length(),SHORT_CODE_LENGTH);
     }
 }
