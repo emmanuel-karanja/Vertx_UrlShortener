@@ -51,7 +51,7 @@ public class ShortCodeGeneratorTests {
         String shortCode1=new ShortCodeGenerator().generate(source1);
         String shortCode2=new ShortCodeGenerator().generate(source2);
 
-        assertTrue(shortCode1.length()==7);
-        assertTrue(shortCode2.length()==7);
+        assertEquals(shortCode1.length(),7);
+        assertEquals(shortCode2.length(),7);
     }
 }
