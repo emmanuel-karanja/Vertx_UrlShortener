@@ -1,5 +1,7 @@
 package com.example.urlshortener.verticles;
 
+import com.example.urlshortener.config.AppConfig;
+import com.example.urlshortener.config.HttpServerConfig;
 import io.vertx.circuitbreaker.CircuitBreaker;
 import io.vertx.circuitbreaker.CircuitBreakerOptions;
 import io.vertx.ext.web.client.WebClient;
@@ -30,6 +32,10 @@ public class HttpVerticle extends AbstractVerticle{
 
     @Override
     public void start(Promise<Void> startPromise){
+
+        AppConfig appConfig=config().mapTo(AppConfig.class);
+
+        HttpServerConfig httpConfig=appConfig.http();
 
        WebClient client= WebClient.create(vertx);
        CircuitBreaker breaker= CircuitBreaker.create("user-service",
@@ -69,9 +75,10 @@ public class HttpVerticle extends AbstractVerticle{
         // Create http Server
         vertx.createHttpServer()
                 .requestHandler(router)
-                .listen(8080)
+                .listen(httpConfig.port())
                 .onSuccess(id->{
-                    System.out.println("Http Server started listening on 8080");
+                    System.out.println("Http Server started listening on:"+httpConfig.port());
+                    _logger.info("Http server started listening on: {}",httpConfig.port());
                     startPromise.complete();
                 }).onFailure(err->{
                     System.out.println("Failed with {err}");

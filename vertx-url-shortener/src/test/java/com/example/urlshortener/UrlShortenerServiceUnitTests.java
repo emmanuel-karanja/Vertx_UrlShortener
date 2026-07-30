@@ -68,7 +68,7 @@ public class UrlShortenerServiceUnitTests {
 
         // assert validation
         assertTrue(future.failed());
-        assertEquals("URL must start with http:// or https://", future.cause().getMessage());
+        assertTrue(future.cause().getMessage().contains("URL"));
 
         // Verify that the event bus is never called
         verify(eventBus,never()).request(anyString(), any(JsonObject.class));

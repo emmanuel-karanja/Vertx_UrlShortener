@@ -5,7 +5,7 @@ import org.flywaydb.core.Flyway;
 public final class TestDatabase {
 
     public static void migrate() {
-        System.setProperty("db.name", "url_shortener_test");
+
 
         Flyway flyway = Flyway.configure()
                 .dataSource(

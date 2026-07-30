@@ -37,6 +37,11 @@
 
         <dependency>
             <groupId>io.vertx</groupId>
+            <artifactId>vertx-config</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.vertx</groupId>
             <artifactId>vertx-pg-client</artifactId>
             <version>${vertx.version}</version>
         </dependency>
@@ -72,6 +77,12 @@
             <version>${vertx.version}</version>
         </dependency>
 
+        <!-- Config-->
+        <dependency>
+            <groupId>io.vertx</groupId>
+            <artifactId>vertx-config</artifactId>
+            <version>${vertx.version}</version>
+        </dependency>
 
         <!-- Flyway -->
 

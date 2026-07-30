@@ -1,0 +1,12 @@
+{
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "database": "url_shortener_test",
+    "user": "postgres",
+    "password": "password"
+  },
+  "http": {
+    "port": 8080
+  }
+}

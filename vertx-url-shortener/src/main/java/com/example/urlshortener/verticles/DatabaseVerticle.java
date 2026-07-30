@@ -1,5 +1,7 @@
 package com.example.urlshortener.verticles;
 
+import com.example.urlshortener.config.AppConfig;
+import com.example.urlshortener.config.DatabaseConfig;
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Promise;
 import io.vertx.pgclient.PgConnectOptions;
@@ -45,14 +47,16 @@ public class DatabaseVerticle extends AbstractVerticle{
 
     private void createPool(){
 
-        String dbName = System.getProperty("db.name", "urlshortener");
+        AppConfig appConfig=config().mapTo(AppConfig.class);
+
+        DatabaseConfig dbConfig=appConfig.database();
 
         PgConnectOptions connectOptions = new PgConnectOptions()
-                .setHost("localhost")
-                .setPort(5432)
-                .setDatabase(dbName)
-                .setUser("postgres")
-                .setPassword("password");
+                .setHost(dbConfig.host())
+                .setPort(dbConfig.port())
+                .setDatabase(dbConfig.database())
+                .setUser(dbConfig.user())
+                .setPassword(dbConfig.password());
 
         PoolOptions poolOptions = new PoolOptions()
                 .setMaxSize(10);
