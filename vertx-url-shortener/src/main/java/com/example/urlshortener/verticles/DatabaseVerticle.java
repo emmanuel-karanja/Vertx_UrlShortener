@@ -86,17 +86,11 @@ public class DatabaseVerticle extends AbstractVerticle{
          _pool.query("SELECT 1")
         .execute()
         .onSuccess(result -> {
-            message.reply(
-                new JsonObject()
-                    .put("status", "Up")
-            );
+            message.reply(new JsonObject().put("status", "Up"));
         })
         .onFailure(error -> {
 
-            message.fail(
-                500,
-                error.getMessage()
-            );
+            message.fail(500, error.getMessage());
         });
     }
 

@@ -9,6 +9,7 @@ public class JsonResponseHeaderHandler implements Handler<RoutingContext>{
     public void handle(RoutingContext ctx){
         ctx.response()
                 .putHeader("Content-Type", "application/json");
+
         ctx.next();
     }
 }

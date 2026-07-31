@@ -9,25 +9,36 @@ import io.vertx.core.DeploymentOptions;
 import io.vertx.core.Promise;
 import io.vertx.core.json.JsonObject;
 
+import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
+
+
 public class MainVerticle extends AbstractVerticle {
+
+    private final static Logger _logger= LoggerFactory.getLogger(MainVerticle.class);
 
     @Override
     public void start(Promise<Void> startPromise) {
 
+        // 1. Specify the config store options which includes the name of the file.
         ConfigStoreOptions fileStore = new ConfigStoreOptions()
                 .setType("file")
                 .setFormat("json")
                 .setConfig(new JsonObject()
                         .put("path", "application.json"));
 
+        // 2. Add store to Retriever options
         ConfigRetrieverOptions options = new ConfigRetrieverOptions()
                 .addStore(fileStore);
 
+        // 3. Create a retriever and get config.
         ConfigRetriever retriever = ConfigRetriever.create(vertx, options);
 
-
         retriever.getConfig()
-                .onSuccess(json -> System.out.println(json.encodePrettily()))
+                .onSuccess(json -> {
+                    System.out.println(json.encodePrettily());
+                    _logger.info("Configs loaded {}", json.encodePrettily());
+                })
                 // Convert JSON → AppConfig
                 .map(json -> json.mapTo(AppConfig.class))
                 // Deploy DatabaseVerticle
@@ -54,9 +65,13 @@ public class MainVerticle extends AbstractVerticle {
                 })
                 .onSuccess(id -> {
                     System.out.println("Application started.");
+                    _logger.info("Application Started successully {}", id);
                     startPromise.complete();
                 })
 
-                .onFailure(startPromise::fail);
+                .onFailure(error->{
+                       _logger.error("Application startup failed:{}",error.getMessage());
+                        startPromise.fail(error);
+                });
     }
 }

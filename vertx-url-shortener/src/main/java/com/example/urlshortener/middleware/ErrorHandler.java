@@ -42,6 +42,6 @@ public class ErrorHandler implements Handler<RoutingContext>{
     private String json(Throwable error){
         return new JsonObject()
                 .put("error", error == null ? "Unknown error" : error.getMessage())
-                .encode();
+                .encode();  // Convert to Json string.
     }
 }

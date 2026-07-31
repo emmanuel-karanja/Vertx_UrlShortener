@@ -1,7 +1,5 @@
 package com.example.urlshortener;
 
-import com.example.urlshortener.verticles.DatabaseVerticle;
-import com.example.urlshortener.verticles.HttpVerticle;
 import com.example.urlshortener.verticles.MainVerticle;
 import io.vertx.core.json.JsonObject;
 import io.vertx.ext.web.client.WebClient;
