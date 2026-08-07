@@ -12,14 +12,12 @@ import io.vertx.core.json.JsonObject;
 import org.slf4j.LoggerFactory;
 import org.slf4j.Logger;
 
-
 public class MainVerticle extends AbstractVerticle {
 
     private final static Logger _logger= LoggerFactory.getLogger(MainVerticle.class);
 
     @Override
     public void start(Promise<Void> startPromise) {
-
         // 1. Specify the config store options which includes the name of the file.
         ConfigStoreOptions fileStore = new ConfigStoreOptions()
                 .setType("file")
@@ -45,7 +43,7 @@ public class MainVerticle extends AbstractVerticle {
                 .compose(config -> {
                     DeploymentOptions dbOptions =
                             new DeploymentOptions()
-                                    .setConfig(JsonObject.mapFrom(config));
+                                    .setConfig(JsonObject.mapFrom(config.database()));
                     return vertx.deployVerticle(
                             new DatabaseVerticle(),
                             dbOptions
@@ -54,10 +52,13 @@ public class MainVerticle extends AbstractVerticle {
                 // Deploy HttpVerticle
                 .compose(config -> {
 
+                    // Create deployment options for this verticle. This is where you may eve
+                    // set instances.
                     DeploymentOptions httpOptions =
                             new DeploymentOptions()
-                                    .setConfig(JsonObject.mapFrom(config));
-
+                                    .setConfig(JsonObject.mapFrom(config.http()));
+                    // Deploy Verticle and return the future for that. Why? If you don't do that, you won't
+                    // continue with the compose chain.
                     return vertx.deployVerticle(
                             new HttpVerticle(),
                             httpOptions
@@ -68,7 +69,6 @@ public class MainVerticle extends AbstractVerticle {
                     _logger.info("Application Started successully {}", id);
                     startPromise.complete();
                 })
-
                 .onFailure(error->{
                        _logger.error("Application startup failed:{}",error.getMessage());
                         startPromise.fail(error);

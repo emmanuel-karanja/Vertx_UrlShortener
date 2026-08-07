@@ -47,9 +47,8 @@ public class DatabaseVerticle extends AbstractVerticle{
 
     private void createPool(){
 
-        AppConfig appConfig=config().mapTo(AppConfig.class);
-
-        DatabaseConfig dbConfig=appConfig.database();
+        // Once again it's passed via config() via the DeploymentOptions.
+        DatabaseConfig dbConfig=config().mapTo(DatabaseConfig.class);
 
         PgConnectOptions connectOptions = new PgConnectOptions()
                 .setHost(dbConfig.host())

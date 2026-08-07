@@ -32,10 +32,9 @@ public class HttpVerticle extends AbstractVerticle{
 
     @Override
     public void start(Promise<Void> startPromise){
-
-        AppConfig appConfig=config().mapTo(AppConfig.class);
-
-        HttpServerConfig httpConfig=appConfig.http();
+        // Config() is passed within DeploymentOptions
+        // Manually cast it into the Config record
+        HttpServerConfig httpConfig=config().mapTo(HttpServerConfig.class);
 
        WebClient client= WebClient.create(vertx);
        CircuitBreaker breaker= CircuitBreaker.create("user-service",

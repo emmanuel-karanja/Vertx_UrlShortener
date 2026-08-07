@@ -80,7 +80,6 @@ public class UrlShortenerServiceIntegrationTests {
 
     @Test
     void shouldInvalidateEmptyShortUrl(Vertx vertx, VertxTestContext ctx){
-
        service.shorten(new UrlShortenRequest(""))
                .onFailure(err->{
                    ctx.verify(()->{
