@@ -97,7 +97,6 @@ public class DatabaseVerticle extends AbstractVerticle{
     private void saveUrl(Message<JsonObject> message){
 
         JsonObject body = message.body();
-        //
         _logger.info("saving Url:{}",body.getString("longUrl"));
 
         String longUrl=body.getString("longUrl");

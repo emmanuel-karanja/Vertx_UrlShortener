@@ -1,21 +1,21 @@
-2026-07-31 08:30:21.031 INFO  [main] o.h.v.internal.util.Version - HV000001: Hibernate Validator 9.0.1.Final
-2026-07-31 08:30:21.519 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=bad_url]
-2026-07-31 08:30:21.733 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
-2026-07-31 08:30:21.764 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=]
-2026-07-31 08:30:21.827 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
-2026-07-31 08:30:23.058 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
-2026-07-31 08:30:23.118 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
-2026-07-31 08:30:23.121 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.001s)
-2026-07-31 08:30:23.163 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.038s)
-2026-07-31 08:30:23.187 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.023s)
-2026-07-31 08:30:23.188 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
-2026-07-31 08:30:23.492 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
-2026-07-31 08:30:23.499 INFO  [main] o.f.c.i.command.DbValidate - Successfully validated 1 migration (execution time 00:00.040s)
-2026-07-31 08:30:23.535 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
-2026-07-31 08:30:23.683 INFO  [main] o.f.c.i.command.DbMigrate - Current version of schema "public": << Empty Schema >>
-2026-07-31 08:30:23.710 INFO  [main] o.f.c.i.command.DbMigrate - Migrating schema "public" to version "1 - create urls table"
-2026-07-31 08:30:23.792 INFO  [main] o.f.c.i.command.DbMigrate - Successfully applied 1 migration to schema "public", now at version v1 (execution time 00:00.038s)
-2026-07-31 08:30:24.120 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+2026-08-07 10:40:48.333 INFO  [main] o.h.v.internal.util.Version - HV000001: Hibernate Validator 9.0.1.Final
+2026-08-07 10:40:50.534 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=bad_url]
+2026-08-07 10:40:51.461 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
+2026-08-07 10:40:51.594 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=]
+2026-08-07 10:40:51.706 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
+2026-08-07 10:40:56.977 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
+2026-08-07 10:40:57.113 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+2026-08-07 10:40:57.117 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.001s)
+2026-08-07 10:40:57.185 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.066s)
+2026-08-07 10:40:57.210 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.023s)
+2026-08-07 10:40:57.211 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
+2026-08-07 10:40:57.416 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+2026-08-07 10:40:57.425 INFO  [main] o.f.c.i.command.DbValidate - Successfully validated 1 migration (execution time 00:00.038s)
+2026-08-07 10:40:57.460 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2026-08-07 10:40:57.694 INFO  [main] o.f.c.i.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2026-08-07 10:40:57.724 INFO  [main] o.f.c.i.command.DbMigrate - Migrating schema "public" to version "1 - create urls table"
+2026-08-07 10:40:57.810 INFO  [main] o.f.c.i.command.DbMigrate - Successfully applied 1 migration to schema "public", now at version v1 (execution time 00:00.026s)
+2026-08-07 10:40:58.832 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
   "database" : {
     "host" : "localhost",
     "port" : 5432,
@@ -27,12 +27,12 @@
     "port" : 8080
   }
 }
-2026-07-31 08:30:24.511 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
-2026-07-31 08:30:24.579 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
-2026-07-31 08:30:24.581 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 3
-2026-07-31 08:30:24.741 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - Ping health check
-2026-07-31 08:30:24.750 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/health 200 16ms
-2026-07-31 08:30:24.838 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+2026-08-07 10:40:59.836 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 10:40:59.986 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 10:40:59.987 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 3
+2026-08-07 10:41:00.404 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - Ping health check
+2026-08-07 10:41:00.415 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/health 200 21ms
+2026-08-07 10:41:00.527 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
   "database" : {
     "host" : "localhost",
     "port" : 5432,
@@ -44,11 +44,11 @@
     "port" : 8080
   }
 }
-2026-07-31 08:30:24.870 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
-2026-07-31 08:30:24.880 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
-2026-07-31 08:30:24.881 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 6
-2026-07-31 08:30:24.895 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/resolve/ 404 1ms
-2026-07-31 08:30:24.939 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+2026-08-07 10:41:00.565 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 10:41:00.589 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 10:41:00.590 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 6
+2026-08-07 10:41:00.608 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/resolve/ 404 2ms
+2026-08-07 10:41:00.667 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
   "database" : {
     "host" : "localhost",
     "port" : 5432,
@@ -60,14 +60,13 @@
     "port" : 8080
   }
 }
-2026-07-31 08:30:24.955 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
-2026-07-31 08:30:24.962 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
-2026-07-31 08:30:24.963 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 9
-2026-07-31 08:30:24.974 INFO  [vert.x-eventloop-thread-3] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=null]
-2026-07-31 08:30:24.982 ERROR [vert.x-eventloop-thread-3] c.e.u.middleware.ErrorHandler - [Ljava.lang.StackTraceElement;@3dce032f
-2026-07-31 08:30:24.983 ERROR [vert.x-eventloop-thread-3] c.e.u.middleware.ErrorHandler - jakarta.validation.ValidationException
-2026-07-31 08:30:24.983 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - POST /api/shorten 400 9ms
-2026-07-31 08:30:25.032 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+2026-08-07 10:41:00.711 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 10:41:00.727 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 10:41:00.728 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 9
+2026-08-07 10:41:00.748 INFO  [vert.x-eventloop-thread-3] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=null]
+2026-08-07 10:41:00.769 ERROR [vert.x-eventloop-thread-3] c.e.u.middleware.ErrorHandler - [Ljava.lang.StackTraceElement;@729ef601
+2026-08-07 10:41:00.770 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - POST /api/shorten 400 23ms
+2026-08-07 10:41:00.823 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
   "database" : {
     "host" : "localhost",
     "port" : 5432,
@@ -79,13 +78,13 @@
     "port" : 8080
   }
 }
-2026-07-31 08:30:25.058 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
-2026-07-31 08:30:25.064 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
-2026-07-31 08:30:25.065 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 12
-2026-07-31 08:30:25.074 INFO  [vert.x-eventloop-thread-3] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
-2026-07-31 08:30:25.082 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - saving Url:https://www.example.com
-2026-07-31 08:30:25.094 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - POST /api/shorten 200 20ms
-2026-07-31 08:30:25.130 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+2026-08-07 10:41:00.869 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 10:41:00.887 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 10:41:00.889 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 12
+2026-08-07 10:41:00.907 INFO  [vert.x-eventloop-thread-3] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
+2026-08-07 10:41:00.928 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - saving Url:https://www.example.com
+2026-08-07 10:41:00.956 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - POST /api/shorten 200 49ms
+2026-08-07 10:41:01.016 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
   "database" : {
     "host" : "localhost",
     "port" : 5432,
@@ -97,34 +96,51 @@
     "port" : 8080
   }
 }
-2026-07-31 08:30:25.150 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
-2026-07-31 08:30:25.161 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
-2026-07-31 08:30:25.162 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 15
-2026-07-31 08:30:25.170 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - Ping health check
-2026-07-31 08:30:25.173 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/health 200 3ms
-2026-07-31 08:30:25.264 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
-2026-07-31 08:30:25.281 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.000s)
-2026-07-31 08:30:25.325 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.041s)
-2026-07-31 08:30:25.356 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.027s)
-2026-07-31 08:30:25.356 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
-2026-07-31 08:33:15.875 INFO  [main] o.h.v.internal.util.Version - HV000001: Hibernate Validator 9.0.1.Final
-2026-07-31 08:33:16.776 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=bad_url]
-2026-07-31 08:33:17.446 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
-2026-07-31 08:33:17.491 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=]
-2026-07-31 08:33:17.584 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
-2026-07-31 08:33:18.836 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
-2026-07-31 08:33:18.897 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
-2026-07-31 08:33:18.903 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.000s)
-2026-07-31 08:33:18.979 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.066s)
-2026-07-31 08:33:19.008 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.027s)
-2026-07-31 08:33:19.010 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.001s)
-2026-07-31 08:33:19.248 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
-2026-07-31 08:33:19.252 INFO  [main] o.f.c.i.command.DbValidate - Successfully validated 1 migration (execution time 00:00.025s)
-2026-07-31 08:33:19.273 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
-2026-07-31 08:33:19.439 INFO  [main] o.f.c.i.command.DbMigrate - Current version of schema "public": << Empty Schema >>
-2026-07-31 08:33:19.465 INFO  [main] o.f.c.i.command.DbMigrate - Migrating schema "public" to version "1 - create urls table"
-2026-07-31 08:33:19.535 INFO  [main] o.f.c.i.command.DbMigrate - Successfully applied 1 migration to schema "public", now at version v1 (execution time 00:00.025s)
-2026-07-31 08:33:20.034 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+2026-08-07 10:41:01.049 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 10:41:01.064 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 10:41:01.065 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 15
+2026-08-07 10:41:01.076 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - Ping health check
+2026-08-07 10:41:01.079 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/health 200 4ms
+2026-08-07 10:41:01.212 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
+2026-08-07 10:41:01.237 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.000s)
+2026-08-07 10:41:01.278 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.039s)
+2026-08-07 10:41:01.301 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.021s)
+2026-08-07 10:41:01.301 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
+2026-08-07 11:52:18.474 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
+2026-08-07 11:52:18.558 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+2026-08-07 11:52:18.562 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.002s)
+2026-08-07 11:52:18.601 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.035s)
+2026-08-07 11:52:18.624 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.022s)
+2026-08-07 11:52:18.626 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
+2026-08-07 11:52:18.887 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+2026-08-07 11:52:18.912 INFO  [main] o.f.c.i.command.DbValidate - Successfully validated 1 migration (execution time 00:00.057s)
+2026-08-07 11:52:18.949 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2026-08-07 11:52:19.159 INFO  [main] o.f.c.i.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2026-08-07 11:52:19.183 INFO  [main] o.f.c.i.command.DbMigrate - Migrating schema "public" to version "1 - create urls table"
+2026-08-07 11:52:19.255 INFO  [main] o.f.c.i.command.DbMigrate - Successfully applied 1 migration to schema "public", now at version v1 (execution time 00:00.028s)
+2026-08-07 11:52:19.993 INFO  [main] o.h.v.internal.util.Version - HV000001: Hibernate Validator 9.0.1.Final
+2026-08-07 11:52:20.791 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
+2026-08-07 11:52:20.812 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.000s)
+2026-08-07 11:52:20.861 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.047s)
+2026-08-07 11:52:20.900 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.037s)
+2026-08-07 11:52:20.900 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
+2026-08-07 11:52:25.448 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=bad_url]
+2026-08-07 11:52:25.821 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
+2026-08-07 11:52:25.893 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=]
+2026-08-07 11:52:26.017 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
+2026-08-07 11:52:26.312 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
+2026-08-07 11:52:26.341 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+2026-08-07 11:52:26.343 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.000s)
+2026-08-07 11:52:26.390 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.043s)
+2026-08-07 11:52:26.423 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.031s)
+2026-08-07 11:52:26.423 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
+2026-08-07 11:52:26.712 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+2026-08-07 11:52:26.714 INFO  [main] o.f.c.i.command.DbValidate - Successfully validated 1 migration (execution time 00:00.006s)
+2026-08-07 11:52:26.728 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2026-08-07 11:52:26.855 INFO  [main] o.f.c.i.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2026-08-07 11:52:26.864 INFO  [main] o.f.c.i.command.DbMigrate - Migrating schema "public" to version "1 - create urls table"
+2026-08-07 11:52:26.915 INFO  [main] o.f.c.i.command.DbMigrate - Successfully applied 1 migration to schema "public", now at version v1 (execution time 00:00.017s)
+2026-08-07 11:52:27.437 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
   "database" : {
     "host" : "localhost",
     "port" : 5432,
@@ -136,12 +152,12 @@
     "port" : 8080
   }
 }
-2026-07-31 08:33:20.437 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
-2026-07-31 08:33:20.512 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
-2026-07-31 08:33:20.515 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 3
-2026-07-31 08:33:20.684 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - Ping health check
-2026-07-31 08:33:20.699 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/health 200 20ms
-2026-07-31 08:33:20.793 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+2026-08-07 11:52:28.474 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 11:52:28.634 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 11:52:28.638 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 8
+2026-08-07 11:52:29.387 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - Ping health check
+2026-08-07 11:52:29.413 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/health 200 51ms
+2026-08-07 11:52:29.752 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
   "database" : {
     "host" : "localhost",
     "port" : 5432,
@@ -153,11 +169,11 @@
     "port" : 8080
   }
 }
-2026-07-31 08:33:20.836 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
-2026-07-31 08:33:20.861 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
-2026-07-31 08:33:20.862 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 6
-2026-07-31 08:33:20.871 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/resolve/ 404 1ms
-2026-07-31 08:33:20.910 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+2026-08-07 11:52:29.851 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 11:52:29.897 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 11:52:29.898 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 11
+2026-08-07 11:52:29.944 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/resolve/ 404 11ms
+2026-08-07 11:52:30.094 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
   "database" : {
     "host" : "localhost",
     "port" : 5432,
@@ -169,14 +185,13 @@
     "port" : 8080
   }
 }
-2026-07-31 08:33:20.969 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
-2026-07-31 08:33:20.978 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
-2026-07-31 08:33:20.979 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 9
-2026-07-31 08:33:20.990 INFO  [vert.x-eventloop-thread-3] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=null]
-2026-07-31 08:33:20.998 ERROR [vert.x-eventloop-thread-3] c.e.u.middleware.ErrorHandler - [Ljava.lang.StackTraceElement;@6f23fda0
-2026-07-31 08:33:20.998 ERROR [vert.x-eventloop-thread-3] c.e.u.middleware.ErrorHandler - jakarta.validation.ValidationException
-2026-07-31 08:33:20.999 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - POST /api/shorten 400 9ms
-2026-07-31 08:33:21.070 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+2026-08-07 11:52:30.161 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 11:52:30.187 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 11:52:30.187 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 14
+2026-08-07 11:52:30.219 INFO  [vert.x-eventloop-thread-3] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=null]
+2026-08-07 11:52:30.228 ERROR [vert.x-eventloop-thread-3] c.e.u.middleware.ErrorHandler - [Ljava.lang.StackTraceElement;@164b7b2d
+2026-08-07 11:52:30.230 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - POST /api/shorten 400 12ms
+2026-08-07 11:52:30.280 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
   "database" : {
     "host" : "localhost",
     "port" : 5432,
@@ -188,13 +203,13 @@
     "port" : 8080
   }
 }
-2026-07-31 08:33:21.098 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
-2026-07-31 08:33:21.112 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
-2026-07-31 08:33:21.113 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 12
-2026-07-31 08:33:21.121 INFO  [vert.x-eventloop-thread-3] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
-2026-07-31 08:33:21.131 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - saving Url:https://www.example.com
-2026-07-31 08:33:21.149 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - POST /api/shorten 200 28ms
-2026-07-31 08:33:21.177 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+2026-08-07 11:52:30.327 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 11:52:30.352 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 11:52:30.353 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 17
+2026-08-07 11:52:30.367 INFO  [vert.x-eventloop-thread-3] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
+2026-08-07 11:52:30.382 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - saving Url:https://www.example.com
+2026-08-07 11:52:30.432 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - POST /api/shorten 200 65ms
+2026-08-07 11:52:30.522 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
   "database" : {
     "host" : "localhost",
     "port" : 5432,
@@ -206,34 +221,30 @@
     "port" : 8080
   }
 }
-2026-07-31 08:33:21.207 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
-2026-07-31 08:33:21.221 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
-2026-07-31 08:33:21.225 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 15
-2026-07-31 08:33:21.239 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - Ping health check
-2026-07-31 08:33:21.243 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/health 200 4ms
-2026-07-31 08:33:21.331 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
-2026-07-31 08:33:21.350 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.000s)
-2026-07-31 08:33:21.389 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.037s)
-2026-07-31 08:33:21.411 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.021s)
-2026-07-31 08:33:21.412 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
-2026-07-31 09:05:06.805 INFO  [main] o.h.v.internal.util.Version - HV000001: Hibernate Validator 9.0.1.Final
-2026-07-31 09:05:08.225 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=bad_url]
-2026-07-31 09:05:08.595 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
-2026-07-31 09:05:08.628 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=]
-2026-07-31 09:05:08.715 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
-2026-07-31 09:05:11.315 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
-2026-07-31 09:05:11.415 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
-2026-07-31 09:05:11.420 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.002s)
-2026-07-31 09:05:11.463 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.040s)
-2026-07-31 09:05:11.491 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.027s)
-2026-07-31 09:05:11.492 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
-2026-07-31 09:05:11.800 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
-2026-07-31 09:05:11.806 INFO  [main] o.f.c.i.command.DbValidate - Successfully validated 1 migration (execution time 00:00.037s)
-2026-07-31 09:05:11.835 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
-2026-07-31 09:05:12.052 INFO  [main] o.f.c.i.command.DbMigrate - Current version of schema "public": << Empty Schema >>
-2026-07-31 09:05:12.085 INFO  [main] o.f.c.i.command.DbMigrate - Migrating schema "public" to version "1 - create urls table"
-2026-07-31 09:05:12.154 INFO  [main] o.f.c.i.command.DbMigrate - Successfully applied 1 migration to schema "public", now at version v1 (execution time 00:00.024s)
-2026-07-31 09:05:12.987 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+2026-08-07 11:52:30.577 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 11:52:30.590 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 11:52:30.591 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 20
+2026-08-07 11:52:30.602 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - Ping health check
+2026-08-07 11:52:30.607 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/health 200 5ms
+2026-08-07 11:52:30.760 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
+2026-08-07 11:52:30.777 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.000s)
+2026-08-07 11:52:30.814 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.034s)
+2026-08-07 11:52:30.850 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.035s)
+2026-08-07 11:52:30.851 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
+2026-08-07 11:53:20.755 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
+2026-08-07 11:53:20.965 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+2026-08-07 11:53:20.986 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.008s)
+2026-08-07 11:53:21.157 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.157s)
+2026-08-07 11:53:21.204 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.043s)
+2026-08-07 11:53:21.205 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
+2026-08-07 11:53:21.680 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+2026-08-07 11:53:21.689 INFO  [main] o.f.c.i.command.DbValidate - Successfully validated 1 migration (execution time 00:00.049s)
+2026-08-07 11:53:21.731 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2026-08-07 11:53:21.943 INFO  [main] o.f.c.i.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2026-08-07 11:53:21.970 INFO  [main] o.f.c.i.command.DbMigrate - Migrating schema "public" to version "1 - create urls table"
+2026-08-07 11:53:22.078 INFO  [main] o.f.c.i.command.DbMigrate - Successfully applied 1 migration to schema "public", now at version v1 (execution time 00:00.043s)
+2026-08-07 11:53:22.889 INFO  [main] o.h.v.internal.util.Version - HV000001: Hibernate Validator 9.0.1.Final
+2026-08-07 11:53:23.189 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Configs loaded {
   "database" : {
     "host" : "localhost",
     "port" : 5432,
@@ -245,12 +256,11 @@
     "port" : 8080
   }
 }
-2026-07-31 09:05:13.795 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
-2026-07-31 09:05:13.934 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
-2026-07-31 09:05:13.937 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 3
-2026-07-31 09:05:14.303 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - Ping health check
-2026-07-31 09:05:14.319 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/health 200 30ms
-2026-07-31 09:05:14.456 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+2026-08-07 11:53:24.268 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 11:53:24.458 INFO  [vert.x-eventloop-thread-2] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 11:53:24.460 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Application Started successully 3
+2026-08-07 11:53:24.462 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=bad_url.com]
+2026-08-07 11:53:24.724 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Configs loaded {
   "database" : {
     "host" : "localhost",
     "port" : 5432,
@@ -262,11 +272,11 @@
     "port" : 8080
   }
 }
-2026-07-31 09:05:14.514 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
-2026-07-31 09:05:14.529 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
-2026-07-31 09:05:14.530 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 6
-2026-07-31 09:05:14.547 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/resolve/ 404 3ms
-2026-07-31 09:05:14.603 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+2026-08-07 11:53:24.763 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 11:53:24.776 INFO  [vert.x-eventloop-thread-2] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 11:53:24.776 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Application Started successully 6
+2026-08-07 11:53:24.795 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - Ping health check
+2026-08-07 11:53:24.840 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Configs loaded {
   "database" : {
     "host" : "localhost",
     "port" : 5432,
@@ -278,14 +288,12 @@
     "port" : 8080
   }
 }
-2026-07-31 09:05:14.677 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
-2026-07-31 09:05:14.701 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
-2026-07-31 09:05:14.702 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 9
-2026-07-31 09:05:14.737 INFO  [vert.x-eventloop-thread-3] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=null]
-2026-07-31 09:05:14.755 ERROR [vert.x-eventloop-thread-3] c.e.u.middleware.ErrorHandler - [Ljava.lang.StackTraceElement;@490b5a56
-2026-07-31 09:05:14.756 ERROR [vert.x-eventloop-thread-3] c.e.u.middleware.ErrorHandler - jakarta.validation.ValidationException
-2026-07-31 09:05:14.758 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - POST /api/shorten 400 21ms
-2026-07-31 09:05:14.812 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+2026-08-07 11:53:24.868 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 11:53:24.880 INFO  [vert.x-eventloop-thread-2] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 11:53:24.882 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Application Started successully 9
+2026-08-07 11:53:24.886 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
+2026-08-07 11:53:24.905 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - saving Url:https://www.example.com
+2026-08-07 11:53:24.999 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Configs loaded {
   "database" : {
     "host" : "localhost",
     "port" : 5432,
@@ -297,13 +305,12 @@
     "port" : 8080
   }
 }
-2026-07-31 09:05:14.853 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
-2026-07-31 09:05:14.870 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
-2026-07-31 09:05:14.873 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 12
-2026-07-31 09:05:14.897 INFO  [vert.x-eventloop-thread-3] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
-2026-07-31 09:05:14.924 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - saving Url:https://www.example.com
-2026-07-31 09:05:14.951 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - POST /api/shorten 200 56ms
-2026-07-31 09:05:15.012 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+2026-08-07 11:53:25.062 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 11:53:25.082 INFO  [vert.x-eventloop-thread-2] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 11:53:25.082 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Application Started successully 12
+2026-08-07 11:53:25.085 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=http://good-url-com]
+2026-08-07 11:53:25.100 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - saving Url:http://good-url-com
+2026-08-07 11:53:25.151 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Configs loaded {
   "database" : {
     "host" : "localhost",
     "port" : 5432,
@@ -315,34 +322,32 @@
     "port" : 8080
   }
 }
-2026-07-31 09:05:15.054 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
-2026-07-31 09:05:15.068 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
-2026-07-31 09:05:15.069 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 15
-2026-07-31 09:05:15.085 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - Ping health check
-2026-07-31 09:05:15.092 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/health 200 8ms
-2026-07-31 09:05:15.246 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
-2026-07-31 09:05:15.267 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.000s)
-2026-07-31 09:05:15.322 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.052s)
-2026-07-31 09:05:15.353 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.030s)
-2026-07-31 09:05:15.353 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
-2026-07-31 09:06:54.492 INFO  [main] o.h.v.internal.util.Version - HV000001: Hibernate Validator 9.0.1.Final
-2026-07-31 09:06:55.432 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=bad_url]
-2026-07-31 09:06:55.904 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
-2026-07-31 09:06:55.957 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=]
-2026-07-31 09:06:56.059 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
-2026-07-31 09:06:59.470 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
-2026-07-31 09:06:59.612 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
-2026-07-31 09:06:59.618 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.002s)
-2026-07-31 09:06:59.701 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.079s)
-2026-07-31 09:06:59.745 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.042s)
-2026-07-31 09:06:59.750 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
-2026-07-31 09:07:00.239 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
-2026-07-31 09:07:00.246 INFO  [main] o.f.c.i.command.DbValidate - Successfully validated 1 migration (execution time 00:00.042s)
-2026-07-31 09:07:00.270 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
-2026-07-31 09:07:00.524 INFO  [main] o.f.c.i.command.DbMigrate - Current version of schema "public": << Empty Schema >>
-2026-07-31 09:07:00.558 INFO  [main] o.f.c.i.command.DbMigrate - Migrating schema "public" to version "1 - create urls table"
-2026-07-31 09:07:00.730 INFO  [main] o.f.c.i.command.DbMigrate - Successfully applied 1 migration to schema "public", now at version v1 (execution time 00:00.034s)
-2026-07-31 09:07:02.234 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+2026-08-07 11:53:25.181 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 11:53:25.201 INFO  [vert.x-eventloop-thread-2] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 11:53:25.202 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Application Started successully 15
+2026-08-07 11:53:25.205 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=]
+2026-08-07 11:53:25.330 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
+2026-08-07 11:53:25.354 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.000s)
+2026-08-07 11:53:25.393 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.037s)
+2026-08-07 11:53:25.416 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.021s)
+2026-08-07 11:53:25.416 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
+2026-08-07 11:53:29.388 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=bad_url]
+2026-08-07 11:53:29.720 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
+2026-08-07 11:53:29.764 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=]
+2026-08-07 11:53:29.852 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
+2026-08-07 11:53:30.612 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
+2026-08-07 11:53:30.646 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+2026-08-07 11:53:30.647 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.000s)
+2026-08-07 11:53:30.707 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.056s)
+2026-08-07 11:53:30.740 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.032s)
+2026-08-07 11:53:30.741 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
+2026-08-07 11:53:30.996 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+2026-08-07 11:53:31.000 INFO  [main] o.f.c.i.command.DbValidate - Successfully validated 1 migration (execution time 00:00.010s)
+2026-08-07 11:53:31.024 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2026-08-07 11:53:31.160 INFO  [main] o.f.c.i.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2026-08-07 11:53:31.175 INFO  [main] o.f.c.i.command.DbMigrate - Migrating schema "public" to version "1 - create urls table"
+2026-08-07 11:53:31.221 INFO  [main] o.f.c.i.command.DbMigrate - Successfully applied 1 migration to schema "public", now at version v1 (execution time 00:00.025s)
+2026-08-07 11:53:31.268 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
   "database" : {
     "host" : "localhost",
     "port" : 5432,
@@ -354,12 +359,12 @@
     "port" : 8080
   }
 }
-2026-07-31 09:07:03.719 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
-2026-07-31 09:07:03.861 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
-2026-07-31 09:07:03.864 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 3
-2026-07-31 09:07:04.233 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - Ping health check
-2026-07-31 09:07:04.247 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/health 200 25ms
-2026-07-31 09:07:04.382 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+2026-08-07 11:53:31.316 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 11:53:31.335 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 11:53:31.336 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 18
+2026-08-07 11:53:31.780 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - Ping health check
+2026-08-07 11:53:31.794 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/health 200 18ms
+2026-08-07 11:53:31.889 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
   "database" : {
     "host" : "localhost",
     "port" : 5432,
@@ -371,11 +376,11 @@
     "port" : 8080
   }
 }
-2026-07-31 09:07:04.465 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
-2026-07-31 09:07:04.498 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
-2026-07-31 09:07:04.499 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 6
-2026-07-31 09:07:04.525 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/resolve/ 404 1ms
-2026-07-31 09:07:04.597 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+2026-08-07 11:53:31.927 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 11:53:31.946 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 11:53:31.946 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 21
+2026-08-07 11:53:31.962 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/resolve/ 404 3ms
+2026-08-07 11:53:32.035 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
   "database" : {
     "host" : "localhost",
     "port" : 5432,
@@ -387,14 +392,13 @@
     "port" : 8080
   }
 }
-2026-07-31 09:07:04.674 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
-2026-07-31 09:07:04.690 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
-2026-07-31 09:07:04.693 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 9
-2026-07-31 09:07:04.714 INFO  [vert.x-eventloop-thread-3] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=null]
-2026-07-31 09:07:04.724 ERROR [vert.x-eventloop-thread-3] c.e.u.middleware.ErrorHandler - [Ljava.lang.StackTraceElement;@6ba29a06
-2026-07-31 09:07:04.724 ERROR [vert.x-eventloop-thread-3] c.e.u.middleware.ErrorHandler - jakarta.validation.ValidationException
-2026-07-31 09:07:04.725 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - POST /api/shorten 400 11ms
-2026-07-31 09:07:04.785 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+2026-08-07 11:53:32.076 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 11:53:32.102 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 11:53:32.103 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 24
+2026-08-07 11:53:32.133 INFO  [vert.x-eventloop-thread-3] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=null]
+2026-08-07 11:53:32.151 ERROR [vert.x-eventloop-thread-3] c.e.u.middleware.ErrorHandler - [Ljava.lang.StackTraceElement;@477599d8
+2026-08-07 11:53:32.153 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - POST /api/shorten 400 20ms
+2026-08-07 11:53:32.200 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
   "database" : {
     "host" : "localhost",
     "port" : 5432,
@@ -406,13 +410,13 @@
     "port" : 8080
   }
 }
-2026-07-31 09:07:04.856 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
-2026-07-31 09:07:04.870 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
-2026-07-31 09:07:04.870 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 12
-2026-07-31 09:07:04.901 INFO  [vert.x-eventloop-thread-3] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
-2026-07-31 09:07:04.916 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - saving Url:https://www.example.com
-2026-07-31 09:07:04.946 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - POST /api/shorten 200 45ms
-2026-07-31 09:07:05.035 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+2026-08-07 11:53:32.257 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 11:53:32.277 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 11:53:32.280 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 27
+2026-08-07 11:53:32.297 INFO  [vert.x-eventloop-thread-3] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
+2026-08-07 11:53:32.320 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - saving Url:https://www.example.com
+2026-08-07 11:53:32.333 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - POST /api/shorten 200 36ms
+2026-08-07 11:53:32.400 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
   "database" : {
     "host" : "localhost",
     "port" : 5432,
@@ -424,34 +428,30 @@
     "port" : 8080
   }
 }
-2026-07-31 09:07:05.110 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
-2026-07-31 09:07:05.131 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
-2026-07-31 09:07:05.132 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 15
-2026-07-31 09:07:05.148 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - Ping health check
-2026-07-31 09:07:05.154 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/health 200 7ms
-2026-07-31 09:07:05.333 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
-2026-07-31 09:07:05.374 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.000s)
-2026-07-31 09:07:05.452 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.065s)
-2026-07-31 09:07:05.492 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.037s)
-2026-07-31 09:07:05.493 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
-2026-07-31 09:08:38.698 INFO  [main] o.h.v.internal.util.Version - HV000001: Hibernate Validator 9.0.1.Final
-2026-07-31 09:08:39.816 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=bad_url]
-2026-07-31 09:08:40.220 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
-2026-07-31 09:08:40.257 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=]
-2026-07-31 09:08:40.347 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
-2026-07-31 09:08:43.057 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
-2026-07-31 09:08:43.170 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
-2026-07-31 09:08:43.176 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.002s)
-2026-07-31 09:08:43.240 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.058s)
-2026-07-31 09:08:43.275 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.032s)
-2026-07-31 09:08:43.276 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
-2026-07-31 09:08:43.683 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
-2026-07-31 09:08:43.696 INFO  [main] o.f.c.i.command.DbValidate - Successfully validated 1 migration (execution time 00:00.054s)
-2026-07-31 09:08:43.734 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
-2026-07-31 09:08:44.011 INFO  [main] o.f.c.i.command.DbMigrate - Current version of schema "public": << Empty Schema >>
-2026-07-31 09:08:44.051 INFO  [main] o.f.c.i.command.DbMigrate - Migrating schema "public" to version "1 - create urls table"
-2026-07-31 09:08:44.134 INFO  [main] o.f.c.i.command.DbMigrate - Successfully applied 1 migration to schema "public", now at version v1 (execution time 00:00.029s)
-2026-07-31 09:08:45.623 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+2026-08-07 11:53:32.469 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 11:53:32.487 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 11:53:32.488 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 30
+2026-08-07 11:53:32.500 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - Ping health check
+2026-08-07 11:53:32.511 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/health 200 12ms
+2026-08-07 11:53:32.629 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
+2026-08-07 11:53:32.647 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.000s)
+2026-08-07 11:53:32.683 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.034s)
+2026-08-07 11:53:32.711 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.027s)
+2026-08-07 11:53:32.712 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
+2026-08-07 11:55:24.634 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
+2026-08-07 11:55:24.738 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+2026-08-07 11:55:24.744 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.002s)
+2026-08-07 11:55:24.796 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.047s)
+2026-08-07 11:55:24.834 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.037s)
+2026-08-07 11:55:24.836 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
+2026-08-07 11:55:25.070 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+2026-08-07 11:55:25.087 INFO  [main] o.f.c.i.command.DbValidate - Successfully validated 1 migration (execution time 00:00.051s)
+2026-08-07 11:55:25.126 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2026-08-07 11:55:25.368 INFO  [main] o.f.c.i.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2026-08-07 11:55:25.401 INFO  [main] o.f.c.i.command.DbMigrate - Migrating schema "public" to version "1 - create urls table"
+2026-08-07 11:55:25.492 INFO  [main] o.f.c.i.command.DbMigrate - Successfully applied 1 migration to schema "public", now at version v1 (execution time 00:00.041s)
+2026-08-07 11:55:26.237 INFO  [main] o.h.v.internal.util.Version - HV000001: Hibernate Validator 9.0.1.Final
+2026-08-07 11:55:26.785 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Configs loaded {
   "database" : {
     "host" : "localhost",
     "port" : 5432,
@@ -463,12 +463,11 @@
     "port" : 8080
   }
 }
-2026-07-31 09:08:47.054 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
-2026-07-31 09:08:47.174 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
-2026-07-31 09:08:47.175 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 3
-2026-07-31 09:08:47.562 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - Ping health check
-2026-07-31 09:08:47.577 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/health 200 28ms
-2026-07-31 09:08:47.729 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+2026-08-07 11:55:27.707 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 11:55:27.908 INFO  [vert.x-eventloop-thread-2] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 11:55:27.910 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Application Started successully 3
+2026-08-07 11:55:27.915 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=bad_url.com]
+2026-08-07 11:55:28.217 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Configs loaded {
   "database" : {
     "host" : "localhost",
     "port" : 5432,
@@ -480,11 +479,11 @@
     "port" : 8080
   }
 }
-2026-07-31 09:08:47.779 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
-2026-07-31 09:08:47.799 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
-2026-07-31 09:08:47.801 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 6
-2026-07-31 09:08:47.819 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/resolve/ 404 3ms
-2026-07-31 09:08:47.874 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+2026-08-07 11:55:28.270 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 11:55:28.293 INFO  [vert.x-eventloop-thread-2] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 11:55:28.294 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Application Started successully 6
+2026-08-07 11:55:28.314 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - Ping health check
+2026-08-07 11:55:28.353 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Configs loaded {
   "database" : {
     "host" : "localhost",
     "port" : 5432,
@@ -496,14 +495,12 @@
     "port" : 8080
   }
 }
-2026-07-31 09:08:47.919 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
-2026-07-31 09:08:47.931 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
-2026-07-31 09:08:47.931 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 9
-2026-07-31 09:08:47.959 INFO  [vert.x-eventloop-thread-3] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=null]
-2026-07-31 09:08:47.968 ERROR [vert.x-eventloop-thread-3] c.e.u.middleware.ErrorHandler - [Ljava.lang.StackTraceElement;@2e53220f
-2026-07-31 09:08:47.968 ERROR [vert.x-eventloop-thread-3] c.e.u.middleware.ErrorHandler - jakarta.validation.ValidationException
-2026-07-31 09:08:47.970 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - POST /api/shorten 400 10ms
-2026-07-31 09:08:48.040 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+2026-08-07 11:55:28.385 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 11:55:28.405 INFO  [vert.x-eventloop-thread-2] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 11:55:28.407 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Application Started successully 9
+2026-08-07 11:55:28.411 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
+2026-08-07 11:55:28.430 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - saving Url:https://www.example.com
+2026-08-07 11:55:28.494 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Configs loaded {
   "database" : {
     "host" : "localhost",
     "port" : 5432,
@@ -515,13 +512,14 @@
     "port" : 8080
   }
 }
-2026-07-31 09:08:48.092 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
-2026-07-31 09:08:48.105 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
-2026-07-31 09:08:48.106 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 12
-2026-07-31 09:08:48.153 INFO  [vert.x-eventloop-thread-3] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
-2026-07-31 09:08:48.171 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - saving Url:https://www.example.com
-2026-07-31 09:08:48.207 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - POST /api/shorten 200 54ms
-2026-07-31 09:08:48.283 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+2026-08-07 11:55:28.523 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 11:55:28.533 INFO  [vert.x-eventloop-thread-2] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 11:55:28.534 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Application Started successully 12
+2026-08-07 11:55:28.536 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=http://good-url-com]
+2026-08-07 11:55:28.558 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - saving Url:http://good-url-com
+2026-08-07 11:55:28.582 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - Fetching url info for shortcode:3mC9oWj
+2026-08-07 11:55:28.590 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - Row found for shortcode:3mC9oWj and longUrl:http://good-url-com
+2026-08-07 11:55:28.636 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Configs loaded {
   "database" : {
     "host" : "localhost",
     "port" : 5432,
@@ -533,13 +531,825 @@
     "port" : 8080
   }
 }
-2026-07-31 09:08:48.344 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
-2026-07-31 09:08:48.371 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
-2026-07-31 09:08:48.372 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 15
-2026-07-31 09:08:48.390 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - Ping health check
-2026-07-31 09:08:48.395 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/health 200 5ms
-2026-07-31 09:08:48.665 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
-2026-07-31 09:08:48.714 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.000s)
-2026-07-31 09:08:48.803 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.084s)
-2026-07-31 09:08:48.837 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.033s)
-2026-07-31 09:08:48.842 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
+2026-08-07 11:55:28.668 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 11:55:28.684 INFO  [vert.x-eventloop-thread-2] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 11:55:28.686 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Application Started successully 15
+2026-08-07 11:55:28.689 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=]
+2026-08-07 11:55:28.840 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
+2026-08-07 11:55:28.868 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.000s)
+2026-08-07 11:55:28.909 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.037s)
+2026-08-07 11:55:28.946 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.036s)
+2026-08-07 11:55:28.946 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
+2026-08-07 11:55:34.373 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=bad_url]
+2026-08-07 11:55:34.714 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
+2026-08-07 11:55:34.763 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=]
+2026-08-07 11:55:34.875 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
+2026-08-07 11:55:35.286 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
+2026-08-07 11:55:35.327 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+2026-08-07 11:55:35.330 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.000s)
+2026-08-07 11:55:35.415 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.080s)
+2026-08-07 11:55:35.449 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.032s)
+2026-08-07 11:55:35.449 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
+2026-08-07 11:55:35.777 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+2026-08-07 11:55:35.782 INFO  [main] o.f.c.i.command.DbValidate - Successfully validated 1 migration (execution time 00:00.016s)
+2026-08-07 11:55:35.802 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2026-08-07 11:55:35.992 INFO  [main] o.f.c.i.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2026-08-07 11:55:36.012 INFO  [main] o.f.c.i.command.DbMigrate - Migrating schema "public" to version "1 - create urls table"
+2026-08-07 11:55:36.053 INFO  [main] o.f.c.i.command.DbMigrate - Successfully applied 1 migration to schema "public", now at version v1 (execution time 00:00.021s)
+2026-08-07 11:55:36.096 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 11:55:36.133 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 11:55:36.143 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 11:55:36.144 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 18
+2026-08-07 11:55:36.742 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - Ping health check
+2026-08-07 11:55:36.756 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/health 200 20ms
+2026-08-07 11:55:36.858 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 11:55:36.925 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 11:55:36.948 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 11:55:36.949 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 21
+2026-08-07 11:55:36.975 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/resolve/ 404 5ms
+2026-08-07 11:55:37.038 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 11:55:37.072 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 11:55:37.098 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 11:55:37.100 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 24
+2026-08-07 11:55:37.123 INFO  [vert.x-eventloop-thread-3] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=null]
+2026-08-07 11:55:37.135 ERROR [vert.x-eventloop-thread-3] c.e.u.middleware.ErrorHandler - [Ljava.lang.StackTraceElement;@3f8bd93d
+2026-08-07 11:55:37.136 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - POST /api/shorten 400 14ms
+2026-08-07 11:55:37.202 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 11:55:37.254 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 11:55:37.272 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 11:55:37.274 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 27
+2026-08-07 11:55:37.292 INFO  [vert.x-eventloop-thread-3] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
+2026-08-07 11:55:37.307 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - saving Url:https://www.example.com
+2026-08-07 11:55:37.319 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - POST /api/shorten 200 29ms
+2026-08-07 11:55:37.369 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 11:55:37.432 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 11:55:37.458 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 11:55:37.459 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 30
+2026-08-07 11:55:37.475 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - Ping health check
+2026-08-07 11:55:37.486 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/health 200 13ms
+2026-08-07 11:55:37.669 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
+2026-08-07 11:55:37.696 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.000s)
+2026-08-07 11:55:37.754 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.051s)
+2026-08-07 11:55:37.789 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.034s)
+2026-08-07 11:55:37.790 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
+2026-08-07 12:26:28.467 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
+2026-08-07 12:26:28.571 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+2026-08-07 12:26:28.577 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.002s)
+2026-08-07 12:26:28.656 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.073s)
+2026-08-07 12:26:28.699 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.039s)
+2026-08-07 12:26:28.700 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
+2026-08-07 12:26:29.306 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+2026-08-07 12:26:29.316 INFO  [main] o.f.c.i.command.DbValidate - Successfully validated 1 migration (execution time 00:00.088s)
+2026-08-07 12:26:29.349 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2026-08-07 12:26:29.622 INFO  [main] o.f.c.i.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2026-08-07 12:26:29.655 INFO  [main] o.f.c.i.command.DbMigrate - Migrating schema "public" to version "1 - create urls table"
+2026-08-07 12:26:29.742 INFO  [main] o.f.c.i.command.DbMigrate - Successfully applied 1 migration to schema "public", now at version v1 (execution time 00:00.030s)
+2026-08-07 12:26:30.419 INFO  [main] o.h.v.internal.util.Version - HV000001: Hibernate Validator 9.0.1.Final
+2026-08-07 12:26:30.897 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 12:26:31.853 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 12:26:32.054 INFO  [vert.x-eventloop-thread-2] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 12:26:32.056 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Application Started successully 3
+2026-08-07 12:26:32.061 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=bad_url.com]
+2026-08-07 12:26:32.376 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 12:26:32.422 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 12:26:32.448 INFO  [vert.x-eventloop-thread-2] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 12:26:32.450 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Application Started successully 6
+2026-08-07 12:26:32.479 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - Ping health check
+2026-08-07 12:26:32.532 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 12:26:32.565 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 12:26:32.593 INFO  [vert.x-eventloop-thread-2] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 12:26:32.594 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Application Started successully 9
+2026-08-07 12:26:32.675 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 12:26:32.716 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 12:26:32.731 INFO  [vert.x-eventloop-thread-2] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 12:26:32.735 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Application Started successully 12
+2026-08-07 12:26:32.737 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
+2026-08-07 12:26:32.750 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - saving Url:https://www.example.com
+2026-08-07 12:26:32.825 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 12:26:32.863 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 12:26:32.876 INFO  [vert.x-eventloop-thread-2] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 12:26:32.878 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Application Started successully 15
+2026-08-07 12:26:32.881 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=http://good-url-com]
+2026-08-07 12:26:32.904 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - saving Url:http://good-url-com
+2026-08-07 12:26:32.917 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - Fetching url info for shortcode:3mC9oWj
+2026-08-07 12:26:32.927 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - Row found for shortcode:3mC9oWj and longUrl:http://good-url-com
+2026-08-07 12:26:32.966 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 12:26:32.992 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 12:26:33.011 INFO  [vert.x-eventloop-thread-2] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 12:26:33.012 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Application Started successully 18
+2026-08-07 12:26:33.018 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=]
+2026-08-07 12:26:33.155 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
+2026-08-07 12:26:33.176 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.000s)
+2026-08-07 12:26:33.222 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.043s)
+2026-08-07 12:26:33.243 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.021s)
+2026-08-07 12:26:33.244 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
+2026-08-07 12:26:37.326 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=bad_url]
+2026-08-07 12:26:37.717 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
+2026-08-07 12:26:37.759 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=]
+2026-08-07 12:26:37.848 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
+2026-08-07 12:26:38.208 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
+2026-08-07 12:26:38.249 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+2026-08-07 12:26:38.250 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.000s)
+2026-08-07 12:26:38.286 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.034s)
+2026-08-07 12:26:38.306 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.019s)
+2026-08-07 12:26:38.307 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
+2026-08-07 12:26:38.518 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+2026-08-07 12:26:38.520 INFO  [main] o.f.c.i.command.DbValidate - Successfully validated 1 migration (execution time 00:00.010s)
+2026-08-07 12:26:38.539 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2026-08-07 12:26:38.669 INFO  [main] o.f.c.i.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2026-08-07 12:26:38.683 INFO  [main] o.f.c.i.command.DbMigrate - Migrating schema "public" to version "1 - create urls table"
+2026-08-07 12:26:38.726 INFO  [main] o.f.c.i.command.DbMigrate - Successfully applied 1 migration to schema "public", now at version v1 (execution time 00:00.019s)
+2026-08-07 12:26:38.776 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 12:26:38.841 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 12:26:38.863 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 12:26:38.864 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 21
+2026-08-07 12:26:39.266 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - Ping health check
+2026-08-07 12:26:39.283 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/health 200 21ms
+2026-08-07 12:26:39.387 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 12:26:39.434 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 12:26:39.470 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 12:26:39.471 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 24
+2026-08-07 12:26:39.491 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/resolve/ 404 2ms
+2026-08-07 12:26:39.543 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 12:26:39.588 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 12:26:39.598 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 12:26:39.599 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 27
+2026-08-07 12:26:39.622 INFO  [vert.x-eventloop-thread-3] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=null]
+2026-08-07 12:26:39.645 ERROR [vert.x-eventloop-thread-3] c.e.u.middleware.ErrorHandler - [Ljava.lang.StackTraceElement;@2797f183
+2026-08-07 12:26:39.650 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - POST /api/shorten 400 28ms
+2026-08-07 12:26:39.708 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 12:26:39.758 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 12:26:39.778 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 12:26:39.779 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 30
+2026-08-07 12:26:39.798 INFO  [vert.x-eventloop-thread-3] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
+2026-08-07 12:26:39.818 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - saving Url:https://www.example.com
+2026-08-07 12:26:39.829 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - POST /api/shorten 200 31ms
+2026-08-07 12:26:39.880 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 12:26:39.925 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 12:26:39.938 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 12:26:39.940 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 33
+2026-08-07 12:26:39.958 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - Ping health check
+2026-08-07 12:26:39.966 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/health 200 9ms
+2026-08-07 12:26:40.140 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
+2026-08-07 12:26:40.167 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.000s)
+2026-08-07 12:26:40.217 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.046s)
+2026-08-07 12:26:40.246 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.027s)
+2026-08-07 12:26:40.246 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
+2026-08-07 14:58:39.494 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
+2026-08-07 14:58:39.597 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+2026-08-07 14:58:39.602 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.002s)
+2026-08-07 14:58:39.638 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.033s)
+2026-08-07 14:58:39.664 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.024s)
+2026-08-07 14:58:39.665 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
+2026-08-07 14:58:39.892 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+2026-08-07 14:58:39.911 INFO  [main] o.f.c.i.command.DbValidate - Successfully validated 1 migration (execution time 00:00.055s)
+2026-08-07 14:58:39.936 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2026-08-07 14:58:40.159 INFO  [main] o.f.c.i.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2026-08-07 14:58:40.185 INFO  [main] o.f.c.i.command.DbMigrate - Migrating schema "public" to version "1 - create urls table"
+2026-08-07 14:58:40.294 INFO  [main] o.f.c.i.command.DbMigrate - Successfully applied 1 migration to schema "public", now at version v1 (execution time 00:00.030s)
+2026-08-07 14:58:40.993 INFO  [main] o.h.v.internal.util.Version - HV000001: Hibernate Validator 9.0.1.Final
+2026-08-07 14:58:41.428 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 14:58:42.349 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 14:58:42.512 INFO  [vert.x-eventloop-thread-2] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 14:58:42.515 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Application Started successully 3
+2026-08-07 14:58:42.520 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=bad_url.com]
+2026-08-07 14:58:42.775 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 14:58:42.826 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 14:58:42.844 INFO  [vert.x-eventloop-thread-2] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 14:58:42.845 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Application Started successully 6
+2026-08-07 14:58:42.929 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 14:58:42.977 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 14:58:42.995 INFO  [vert.x-eventloop-thread-2] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 14:58:42.997 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Application Started successully 9
+2026-08-07 14:58:43.000 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.good-example.com]
+2026-08-07 14:58:43.031 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - saving Url:https://www.good-example.com
+2026-08-07 14:58:43.102 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 14:58:43.146 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 14:58:43.163 INFO  [vert.x-eventloop-thread-2] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 14:58:43.165 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Application Started successully 12
+2026-08-07 14:58:43.171 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - Ping health check
+2026-08-07 14:58:43.237 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 14:58:43.269 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 14:58:43.285 INFO  [vert.x-eventloop-thread-2] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 14:58:43.286 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Application Started successully 15
+2026-08-07 14:58:43.289 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
+2026-08-07 14:58:43.319 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - saving Url:https://www.example.com
+2026-08-07 14:58:43.366 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 14:58:43.421 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 14:58:43.444 INFO  [vert.x-eventloop-thread-2] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 14:58:43.446 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Application Started successully 18
+2026-08-07 14:58:43.450 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=http://good-url-com]
+2026-08-07 14:58:43.472 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - saving Url:http://good-url-com
+2026-08-07 14:58:43.496 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - Fetching url info for shortcode:3mC9oWj
+2026-08-07 14:58:43.507 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - Row found for shortcode:3mC9oWj and longUrl:http://good-url-com
+2026-08-07 14:58:43.565 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 14:58:43.611 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 14:58:43.633 INFO  [vert.x-eventloop-thread-2] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 14:58:43.635 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Application Started successully 21
+2026-08-07 14:58:43.637 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=]
+2026-08-07 14:58:43.778 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
+2026-08-07 14:58:43.808 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.000s)
+2026-08-07 14:58:43.850 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.040s)
+2026-08-07 14:58:43.869 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.018s)
+2026-08-07 14:58:43.870 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
+2026-08-07 14:58:48.451 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=bad_url]
+2026-08-07 14:58:49.202 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
+2026-08-07 14:58:49.356 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=]
+2026-08-07 14:58:49.667 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
+2026-08-07 14:58:50.544 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
+2026-08-07 14:58:50.615 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+2026-08-07 14:58:50.621 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.000s)
+2026-08-07 14:58:50.712 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.081s)
+2026-08-07 14:58:50.795 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.076s)
+2026-08-07 14:58:50.796 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
+2026-08-07 14:58:51.371 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+2026-08-07 14:58:51.378 INFO  [main] o.f.c.i.command.DbValidate - Successfully validated 1 migration (execution time 00:00.022s)
+2026-08-07 14:58:51.427 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2026-08-07 14:58:51.641 INFO  [main] o.f.c.i.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2026-08-07 14:58:51.672 INFO  [main] o.f.c.i.command.DbMigrate - Migrating schema "public" to version "1 - create urls table"
+2026-08-07 14:58:51.769 INFO  [main] o.f.c.i.command.DbMigrate - Successfully applied 1 migration to schema "public", now at version v1 (execution time 00:00.039s)
+2026-08-07 14:58:51.829 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 14:58:51.935 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 14:58:51.964 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 14:58:51.965 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 24
+2026-08-07 14:58:52.624 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - Ping health check
+2026-08-07 14:58:52.646 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/health 200 30ms
+2026-08-07 14:58:52.750 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 14:58:52.787 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 14:58:52.798 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 14:58:52.800 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 27
+2026-08-07 14:58:52.811 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/resolve/ 404 2ms
+2026-08-07 14:58:52.864 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 14:58:52.907 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 14:58:52.921 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 14:58:52.921 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 30
+2026-08-07 14:58:52.948 INFO  [vert.x-eventloop-thread-3] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=null]
+2026-08-07 14:58:52.962 ERROR [vert.x-eventloop-thread-3] c.e.u.middleware.ErrorHandler - [Ljava.lang.StackTraceElement;@747f1734
+2026-08-07 14:58:52.966 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - POST /api/shorten 400 19ms
+2026-08-07 14:58:53.024 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 14:58:53.079 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 14:58:53.097 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 14:58:53.099 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 33
+2026-08-07 14:58:53.115 INFO  [vert.x-eventloop-thread-3] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
+2026-08-07 14:58:53.132 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - saving Url:https://www.example.com
+2026-08-07 14:58:53.148 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - POST /api/shorten 200 34ms
+2026-08-07 14:58:53.201 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 14:58:53.250 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 14:58:53.268 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 14:58:53.268 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 36
+2026-08-07 14:58:53.282 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - Ping health check
+2026-08-07 14:58:53.286 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/health 200 5ms
+2026-08-07 14:58:53.427 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
+2026-08-07 14:58:53.447 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.000s)
+2026-08-07 14:58:53.482 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.033s)
+2026-08-07 14:58:53.504 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.021s)
+2026-08-07 14:58:53.505 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
+2026-08-07 15:00:15.341 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
+2026-08-07 15:00:15.488 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+2026-08-07 15:00:15.507 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.017s)
+2026-08-07 15:00:15.694 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.159s)
+2026-08-07 15:00:15.792 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.096s)
+2026-08-07 15:00:15.793 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
+2026-08-07 15:00:16.419 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+2026-08-07 15:00:16.427 INFO  [main] o.f.c.i.command.DbValidate - Successfully validated 1 migration (execution time 00:00.044s)
+2026-08-07 15:00:16.466 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2026-08-07 15:00:16.702 INFO  [main] o.f.c.i.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2026-08-07 15:00:16.732 INFO  [main] o.f.c.i.command.DbMigrate - Migrating schema "public" to version "1 - create urls table"
+2026-08-07 15:00:16.829 INFO  [main] o.f.c.i.command.DbMigrate - Successfully applied 1 migration to schema "public", now at version v1 (execution time 00:00.038s)
+2026-08-07 15:00:17.602 INFO  [main] o.h.v.internal.util.Version - HV000001: Hibernate Validator 9.0.1.Final
+2026-08-07 15:00:18.055 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 15:00:19.089 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 15:00:19.251 INFO  [vert.x-eventloop-thread-2] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 15:00:19.255 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Application Started successully 3
+2026-08-07 15:00:19.259 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=bad_url.com]
+2026-08-07 15:00:19.589 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 15:00:19.632 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 15:00:19.648 INFO  [vert.x-eventloop-thread-2] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 15:00:19.649 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Application Started successully 6
+2026-08-07 15:00:19.706 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 15:00:19.736 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 15:00:19.747 INFO  [vert.x-eventloop-thread-2] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 15:00:19.748 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Application Started successully 9
+2026-08-07 15:00:19.749 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.good-example.com]
+2026-08-07 15:00:19.779 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - saving Url:https://www.good-example.com
+2026-08-07 15:00:19.848 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 15:00:19.882 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 15:00:19.901 INFO  [vert.x-eventloop-thread-2] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 15:00:19.902 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Application Started successully 12
+2026-08-07 15:00:19.911 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - Ping health check
+2026-08-07 15:00:19.965 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 15:00:20.000 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 15:00:20.020 INFO  [vert.x-eventloop-thread-2] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 15:00:20.021 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Application Started successully 15
+2026-08-07 15:00:20.024 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
+2026-08-07 15:00:20.042 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - saving Url:https://www.example.com
+2026-08-07 15:00:20.097 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 15:00:20.127 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 15:00:20.137 INFO  [vert.x-eventloop-thread-2] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 15:00:20.138 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Application Started successully 18
+2026-08-07 15:00:20.141 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=http://good-url-com]
+2026-08-07 15:00:20.161 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - saving Url:http://good-url-com
+2026-08-07 15:00:20.181 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - Fetching url info for shortcode:3mC9oWj
+2026-08-07 15:00:20.190 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - Row found for shortcode:3mC9oWj and longUrl:http://good-url-com
+2026-08-07 15:00:20.247 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 15:00:20.294 INFO  [vert.x-eventloop-thread-1] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 15:00:20.303 INFO  [vert.x-eventloop-thread-2] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 15:00:20.304 INFO  [vert.x-eventloop-thread-0] c.e.u.verticles.MainVerticle - Application Started successully 21
+2026-08-07 15:00:20.306 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=]
+2026-08-07 15:00:20.435 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
+2026-08-07 15:00:20.457 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.000s)
+2026-08-07 15:00:20.497 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.037s)
+2026-08-07 15:00:20.518 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.020s)
+2026-08-07 15:00:20.519 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
+2026-08-07 15:00:24.623 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=bad_url]
+2026-08-07 15:00:24.939 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
+2026-08-07 15:00:24.978 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=]
+2026-08-07 15:00:25.022 INFO  [main] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
+2026-08-07 15:00:25.747 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
+2026-08-07 15:00:25.790 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+2026-08-07 15:00:25.792 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.000s)
+2026-08-07 15:00:25.872 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.075s)
+2026-08-07 15:00:25.919 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.046s)
+2026-08-07 15:00:25.920 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)
+2026-08-07 15:00:26.112 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "public"."flyway_schema_history" does not exist yet
+2026-08-07 15:00:26.114 INFO  [main] o.f.c.i.command.DbValidate - Successfully validated 1 migration (execution time 00:00.006s)
+2026-08-07 15:00:26.127 INFO  [main] o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2026-08-07 15:00:26.247 INFO  [main] o.f.c.i.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2026-08-07 15:00:26.266 INFO  [main] o.f.c.i.command.DbMigrate - Migrating schema "public" to version "1 - create urls table"
+2026-08-07 15:00:26.307 INFO  [main] o.f.c.i.command.DbMigrate - Successfully applied 1 migration to schema "public", now at version v1 (execution time 00:00.028s)
+2026-08-07 15:00:26.344 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 15:00:26.393 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 15:00:26.412 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 15:00:26.413 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 24
+2026-08-07 15:00:26.841 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - Ping health check
+2026-08-07 15:00:26.855 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/health 200 19ms
+2026-08-07 15:00:26.957 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 15:00:27.009 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 15:00:27.028 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 15:00:27.029 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 27
+2026-08-07 15:00:27.052 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/resolve/ 404 6ms
+2026-08-07 15:00:27.109 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 15:00:27.160 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 15:00:27.182 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 15:00:27.186 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 30
+2026-08-07 15:00:27.215 INFO  [vert.x-eventloop-thread-3] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=null]
+2026-08-07 15:00:27.232 ERROR [vert.x-eventloop-thread-3] c.e.u.middleware.ErrorHandler - [Ljava.lang.StackTraceElement;@3ad4cd2
+2026-08-07 15:00:27.237 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - POST /api/shorten 400 22ms
+2026-08-07 15:00:27.291 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 15:00:27.336 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 15:00:27.352 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 15:00:27.352 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 33
+2026-08-07 15:00:27.369 INFO  [vert.x-eventloop-thread-3] c.e.u.s.UrlShortenerService - Shorten request UrlShortenRequest[url=https://www.example.com]
+2026-08-07 15:00:27.384 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - saving Url:https://www.example.com
+2026-08-07 15:00:27.394 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - POST /api/shorten 200 27ms
+2026-08-07 15:00:27.468 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Configs loaded {
+  "database" : {
+    "host" : "localhost",
+    "port" : 5432,
+    "database" : "url_shortener_test",
+    "user" : "postgres",
+    "password" : "password"
+  },
+  "http" : {
+    "port" : 8080
+  }
+}
+2026-08-07 15:00:27.512 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - PostgresVerticle started
+2026-08-07 15:00:27.528 INFO  [vert.x-eventloop-thread-3] c.e.u.verticles.HttpVerticle - Http server started listening on: 8080
+2026-08-07 15:00:27.530 INFO  [vert.x-eventloop-thread-1] c.e.u.verticles.MainVerticle - Application Started successully 36
+2026-08-07 15:00:27.541 INFO  [vert.x-eventloop-thread-2] c.e.u.v.DatabaseVerticle - Ping health check
+2026-08-07 15:00:27.546 INFO  [vert.x-eventloop-thread-3] c.e.u.m.LoggingHandler - GET /api/health 200 6ms
+2026-08-07 15:00:27.693 INFO  [main] o.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/url_shortener_test (PostgreSQL 16.14)
+2026-08-07 15:00:27.735 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped pre-schema database level objects (execution time 00:00.000s)
+2026-08-07 15:00:27.779 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.040s)
+2026-08-07 15:00:27.804 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully cleaned schema "public" (execution time 00:00.024s)
+2026-08-07 15:00:27.804 INFO  [main] o.f.c.i.c.clean.CleanExecutor - Successfully dropped post-schema database level objects (execution time 00:00.000s)

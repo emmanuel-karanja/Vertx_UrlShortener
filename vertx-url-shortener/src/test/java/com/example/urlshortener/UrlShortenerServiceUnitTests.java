@@ -22,7 +22,6 @@ import static org.mockito.Mockito.*;
 @ExtendWith(MockitoExtension.class)
 public class UrlShortenerServiceUnitTests {
 
-
     @Mock
     private Vertx vertx;
     @Mock

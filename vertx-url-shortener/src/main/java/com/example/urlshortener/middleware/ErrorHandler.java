@@ -20,7 +20,7 @@ public class ErrorHandler implements Handler<RoutingContext>{
 
         _logger.error(error.getStackTrace().toString());
 
-        _logger.error(error.getClass().getName());
+        // _logger.error(error.getClass().getName());
 
         if (error instanceof ValidationException e) {
             ctx.response()
