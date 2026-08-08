@@ -95,9 +95,14 @@ public class UrlShortenerService implements IUrlShortenerService {
                 validator.validate(request);
 
         if (!violations.isEmpty()) {
+            StringBuilder sb=new StringBuilder();
+            for (ConstraintViolation<UrlShortenRequest> violation: violations){
+                sb.append(violation.getMessage());
+                sb.append(" ");
+            }
             return Future.failedFuture(
                     new ValidationException(
-                            violations.iterator().next().getMessage()
+                            sb.toString()
                     )
             );
         }
@@ -110,8 +115,14 @@ public class UrlShortenerService implements IUrlShortenerService {
                 validator.validate(request);
 
         if (!violations.isEmpty()) {
+            StringBuilder sb=new StringBuilder();
+            for(ConstraintViolation<UrlResolveRequest> violation: violations){
+                sb.append(violation.getMessage());
+                sb.append(" ");
+            }
+
             return Future.failedFuture(
-                    violations.iterator().next().getMessage()
+                  sb.toString()
             );
         }
 

@@ -97,7 +97,7 @@ public class UrlShortenerServiceIntegrationTests {
         service.shorten(new UrlShortenRequest("bad_url.com"))
                 .onFailure(err->{
                     ctx.verify(()->{
-                        assertEquals("URL must start with http:// or https://", err.getMessage());
+                        assertTrue(err.getMessage().contains("URL must start with http:// or https://"));
                     });
 
                     ctx.completeNow();
@@ -139,7 +139,7 @@ public class UrlShortenerServiceIntegrationTests {
         service.resolve(new UrlResolveRequest(""))
                 .onFailure(err->{
                     ctx.verify(()->{
-                        assertEquals("ShortCode is required", err.getMessage());
+                        assertTrue( err.getMessage().contains("ShortCode is required"));
                     });
 
                     ctx.completeNow();

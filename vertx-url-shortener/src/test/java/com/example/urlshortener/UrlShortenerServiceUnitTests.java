@@ -89,7 +89,7 @@ public class UrlShortenerServiceUnitTests {
 
         assertTrue(future.failed());
 
-        assertEquals("URL must start with http:// or https://", future.cause().getMessage());
+        assertTrue(future.cause().getMessage().contains("URL must start with http:// or https://"));
 
         verify(eventBus,never()).request(anyString(),any(JsonObject.class));
     }
