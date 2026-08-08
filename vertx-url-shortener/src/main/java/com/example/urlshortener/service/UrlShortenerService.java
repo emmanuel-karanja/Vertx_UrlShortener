@@ -100,9 +100,12 @@ public class UrlShortenerService implements IUrlShortenerService {
                 sb.append(violation.getMessage());
                 sb.append(" ");
             }
+
+            String validationErrors=sb.toString();
+            logger.info("ConstraintViolations {}",validationErrors);
             return Future.failedFuture(
                     new ValidationException(
-                            sb.toString()
+                            validationErrors
                     )
             );
         }
@@ -121,8 +124,12 @@ public class UrlShortenerService implements IUrlShortenerService {
                 sb.append(" ");
             }
 
+            String validationErrors=sb.toString();
+            logger.info("ConstraintViolations {}",validationErrors);
             return Future.failedFuture(
-                  sb.toString()
+                    new ValidationException(
+                            validationErrors
+                    )
             );
         }
 
